@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+    
+    
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
+    
+    <title>Lumenier LUX V2</title>
+  </head>
+  <body>
+    <div id="layout" class="pure-g">
+      <div class="pure-u-1-5">
+
+<div id="sidebar" class="pure-menu">
+  <span class="pure-menu-heading">FPV Racing Resources</span>
+  
+  <ul class="pure-menu-list">
+  
+  
+    
+      <li class="pure-menu-item">
+        <a class="pure-menu-link "href="/"><span>Home</span></a>
+      
+    </li>
+  
+    
+      <li class="pure-menu-item">
+        <a class="pure-menu-link "href="/flight-controller/"><span>Flight Controllers</span></a>
+      
+    </li>
+  
+    <li class="pure-menu-item"> <a class="pure-menu-link" href="#" target="blank">Edit this Page</a> </li>
+  </ul>
+</div>
+</div>
+      <div class="pure-u-4-5">
+
+<h1>Lumenier LUX V2</h1>
+<h2>Flight Controller Details</h2>
+<ul>
+  <li>External Link: <a target="_blank" href="http://www.getfpv.com/lumenier-lux-flight-controller.html">http://www.getfpv.com/lumenier-lux-flight-controller.html</a></li>
+  <li>Processor: F3</li>
+  <li>Size: </li>
+  <li>Integrated PDB: No</li>
+  <li>Integrated OSD: No</li>
+</ul>
+
+
+<p>The Lumenier LUX V2 flight controller is the next generation of the popular Lumenier LUX. It uses a powerful F3 processor along with top of the line hardware. Unleash the capabilities of your FPV Racing Quadcopter with the Lumenier LUX Flight Controller. Achieve gyro refresh rates up to 8kHz (high speed SPI) using popular Betaflight, CleanFlight and RaceFlight firmware along with ultra low looptimes. The LUX comes with BetaFlight pre-installed.</p>
+
+<p>The LUX V2 builds on all the best features of the V1 board and further improves on hardware components and layout. Now you get a whopping 5x dedicated UART ports for periphials, along with an SD Card slot for practically unlimited data logging. The MPU has also been updated to the low noise MPU6000 Gyro making tuning even easier. No longer do you need to solder jumper pads for PPM/SBUS selection, it is automatically chosen via software! The powerful F3 MCU also supports the latest DSHOT protocol available in the newest BetaFlight firmware.</p>
+
+<p>The Lumenier LUX is a very low profile board allowing it to be mounted in a variety of ways. The board also comes with a set of pin headers you can optionally solder on. Alternatively, signal wires can be soldered directly to the pads to save on size and weight. The LUX supports PPM or Serial RX (including Futaba, FrSky, S.BUS, DSMX). A signal inverter is already included for S.BUS. Please note: PWM input for individual channels is not supported.</p>
+
+<p>Please Note: The LUX V2 comes pre-loaded with the latest BetaFlight firmware, do not update the firmware with the old LUX V1 target as it will not function. The new LUX V2 firmware is currently unreleased, and is part of the upcoming BetaFlight 3.1 RC.</p>
+
+<h2 id="hardware-features">Hardware Features</h2>
+
+<h3 id="new-in-v2">New in V2</h3>
+
+<ul>
+<li>Dedicated UART for RC RX use, no need to solder a jumper to select PPM/SRX anymore.</li>
+<li>Dedicated telemetry UART, this brings the total to 5x plus USB.</li>
+<li>SD Card slot for BlackBox data recording (SD card not included)</li>
+<li>Low noise MPU6000 SPI Gyro.</li>
+<li>USB detection can disable things like buzzer when configuring on the bench.</li>
+<li>New ultra low noise regulators for MCU and IMU power systems.</li>
+</ul>
+
+<h3 id="original">Original</h3>
+
+<ul>
+<li>USB Conflict resolution - Hardware inversion, SBUS or telemetry can be used on any of the 3 available hardware serial ports. USB will not interfere with peripherals.</li>
+<li>High Speed SPI 8kHz Gyro</li>
+<li>MPU interrupt connected to F3, allowing the F3 to know immediately when fresh data is available.</li>
+<li>Dedicated Boot button for easy firmware flashing.</li>
+<li>Reinforced solder pads for trouble-free direct soldering.</li>
+<li>Extremely low profile design.</li>
+<li>Recessed, sideways pin headers. Also enables soldering of all wires directly to pads without use of any pin headers.</li>
+<li>Integrated FRSky RSSI Filter (RC filter).</li>
+<li>Input voltage 6v to 24v. Power the board directly from flight pack up to 6S (on &lsquo;BAT&rsquo; pad only!).</li>
+<li>VIN + VBAT merged - A single wire to power the board will provide voltage input and Telemetry/OSD voltage data.</li>
+<li>Filtered voltage output - output 5v 1A (and 3.3v where applicable) to power peripherals such as GPS, RX, BLACKBOX, OSD. 5v/3.3v RX selectable.</li>
+<li>Note: RX pad is dedicated to UART 4 in the Configurator.</li>
+</ul>
+
+<h2 id="software-hardware-features">Software/Hardware Features</h2>
+
+<ul>
+<li>Betaflight support (Supports new DSHOT protocol)</li>
+<li>Cleanflight support (RACE target).</li>
+<li>BLHeli passthrough flashing supported by hardware</li>
+<li>Raceflight ready</li>
+</ul>
+
+<h2 id="specifications">Specifications</h2>
+
+<ul>
+<li>STM32F303RCT6(256kB flash) 32-bit processor</li>
+<li>MPU6000 SPI Gyro/Accelerometer</li>
+<li>Micro SD memory card slot (SD card not included)</li>
+<li>High quality, gold plated PCB</li>
+<li>Highest quality components, individually sourced to meet Lumenier standards</li>
+<li>Micro USB connector for programming</li>
+<li>Dimensions: 36x36x6mm (includes USB in height)</li>
+<li>Mounting Holes: 30.5mm square to center of holes</li>
+<li>Weight: 5g</li>
+</ul>
+
+			</div>
+		</div>
+	</body>
+</html>
+

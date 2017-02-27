@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+<h1>{{ .Title }}</h1>
+<h2>Flight Controller Details</h2>
+<ul>
+  <li>External Link: <a target="_blank" href="{{ .Params.external_url }}">{{ .Params.external_url }}</a></li>
+  <li>Processor: {{ .Params.specs.processor }}</li>
+  <li>Size: {{ .Params.specs.size }}</li>
+  <li>Integrated PDB: {{ if .Params.specs.integrated_pdb }}Yes{{ else }}No{{ end }}</li>
+  <li>Integrated OSD: {{ if .Params.specs.integrated_osd }}Yes{{ else }}No{{ end }}</li>
+</ul>
+{{ .Content }}
+{{ partial "footer.html" . }}

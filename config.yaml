@@ -1,0 +1,18 @@
+---
+languageCode: "en-us"
+title: "FPV Racing Resources"
+baseurl: "http://example.org/"
+theme: "drone"
+metaDataFormat: "yaml"
+publishDir: "docs"
+taxonomies:
+  tag: "tags"
+  category: "categories"
+menu:
+  main:
+  - name: Home
+    url: /
+    weight: 0
+  - name: Flight Controllers
+    url: /flight-controller/
+    weight: 10

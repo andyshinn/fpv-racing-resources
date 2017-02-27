@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FPV Racing Resources</title>
+    <link>http://example.org/index.xml</link>
+    <description>Recent content on FPV Racing Resources</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Feb 2017 13:49:04 -0600</lastBuildDate>
+    <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lumenier LUX V2</title>
+      <link>http://example.org/flight-controller/lumenier-lux-v2/</link>
+      <pubDate>Sun, 26 Feb 2017 13:49:04 -0600</pubDate>
+      
+      <guid>http://example.org/flight-controller/lumenier-lux-v2/</guid>
+      <description>
+
+&lt;p&gt;The Lumenier LUX V2 flight controller is the next generation of the popular Lumenier LUX. It uses a powerful F3 processor along with top of the line hardware. Unleash the capabilities of your FPV Racing Quadcopter with the Lumenier LUX Flight Controller. Achieve gyro refresh rates up to 8kHz (high speed SPI) using popular Betaflight, CleanFlight and RaceFlight firmware along with ultra low looptimes. The LUX comes with BetaFlight pre-installed.&lt;/p&gt;
+
+&lt;p&gt;The LUX V2 builds on all the best features of the V1 board and further improves on hardware components and layout. Now you get a whopping 5x dedicated UART ports for periphials, along with an SD Card slot for practically unlimited data logging. The MPU has also been updated to the low noise MPU6000 Gyro making tuning even easier. No longer do you need to solder jumper pads for PPM/SBUS selection, it is automatically chosen via software! The powerful F3 MCU also supports the latest DSHOT protocol available in the newest BetaFlight firmware.&lt;/p&gt;
+
+&lt;p&gt;The Lumenier LUX is a very low profile board allowing it to be mounted in a variety of ways. The board also comes with a set of pin headers you can optionally solder on. Alternatively, signal wires can be soldered directly to the pads to save on size and weight. The LUX supports PPM or Serial RX (including Futaba, FrSky, S.BUS, DSMX). A signal inverter is already included for S.BUS. Please note: PWM input for individual channels is not supported.&lt;/p&gt;
+
+&lt;p&gt;Please Note: The LUX V2 comes pre-loaded with the latest BetaFlight firmware, do not update the firmware with the old LUX V1 target as it will not function. The new LUX V2 firmware is currently unreleased, and is part of the upcoming BetaFlight 3.1 RC.&lt;/p&gt;
+
+&lt;h2 id=&#34;hardware-features&#34;&gt;Hardware Features&lt;/h2&gt;
+
+&lt;h3 id=&#34;new-in-v2&#34;&gt;New in V2&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dedicated UART for RC RX use, no need to solder a jumper to select PPM/SRX anymore.&lt;/li&gt;
+&lt;li&gt;Dedicated telemetry UART, this brings the total to 5x plus USB.&lt;/li&gt;
+&lt;li&gt;SD Card slot for BlackBox data recording (SD card not included)&lt;/li&gt;
+&lt;li&gt;Low noise MPU6000 SPI Gyro.&lt;/li&gt;
+&lt;li&gt;USB detection can disable things like buzzer when configuring on the bench.&lt;/li&gt;
+&lt;li&gt;New ultra low noise regulators for MCU and IMU power systems.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;original&#34;&gt;Original&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;USB Conflict resolution - Hardware inversion, SBUS or telemetry can be used on any of the 3 available hardware serial ports. USB will not interfere with peripherals.&lt;/li&gt;
+&lt;li&gt;High Speed SPI 8kHz Gyro&lt;/li&gt;
+&lt;li&gt;MPU interrupt connected to F3, allowing the F3 to know immediately when fresh data is available.&lt;/li&gt;
+&lt;li&gt;Dedicated Boot button for easy firmware flashing.&lt;/li&gt;
+&lt;li&gt;Reinforced solder pads for trouble-free direct soldering.&lt;/li&gt;
+&lt;li&gt;Extremely low profile design.&lt;/li&gt;
+&lt;li&gt;Recessed, sideways pin headers. Also enables soldering of all wires directly to pads without use of any pin headers.&lt;/li&gt;
+&lt;li&gt;Integrated FRSky RSSI Filter (RC filter).&lt;/li&gt;
+&lt;li&gt;Input voltage 6v to 24v. Power the board directly from flight pack up to 6S (on &amp;lsquo;BAT&amp;rsquo; pad only!).&lt;/li&gt;
+&lt;li&gt;VIN + VBAT merged - A single wire to power the board will provide voltage input and Telemetry/OSD voltage data.&lt;/li&gt;
+&lt;li&gt;Filtered voltage output - output 5v 1A (and 3.3v where applicable) to power peripherals such as GPS, RX, BLACKBOX, OSD. 5v/3.3v RX selectable.&lt;/li&gt;
+&lt;li&gt;Note: RX pad is dedicated to UART 4 in the Configurator.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;software-hardware-features&#34;&gt;Software/Hardware Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Betaflight support (Supports new DSHOT protocol)&lt;/li&gt;
+&lt;li&gt;Cleanflight support (RACE target).&lt;/li&gt;
+&lt;li&gt;BLHeli passthrough flashing supported by hardware&lt;/li&gt;
+&lt;li&gt;Raceflight ready&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;STM32F303RCT6(256kB flash) 32-bit processor&lt;/li&gt;
+&lt;li&gt;MPU6000 SPI Gyro/Accelerometer&lt;/li&gt;
+&lt;li&gt;Micro SD memory card slot (SD card not included)&lt;/li&gt;
+&lt;li&gt;High quality, gold plated PCB&lt;/li&gt;
+&lt;li&gt;Highest quality components, individually sourced to meet Lumenier standards&lt;/li&gt;
+&lt;li&gt;Micro USB connector for programming&lt;/li&gt;
+&lt;li&gt;Dimensions: 36x36x6mm (includes USB in height)&lt;/li&gt;
+&lt;li&gt;Mounting Holes: 30.5mm square to center of holes&lt;/li&gt;
+&lt;li&gt;Weight: 5g&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lumenier LUX</title>
+      <link>http://example.org/flight-controller/lumenier-lux/</link>
+      <pubDate>Sun, 26 Feb 2017 11:56:04 -0600</pubDate>
+      
+      <guid>http://example.org/flight-controller/lumenier-lux/</guid>
+      <description>&lt;p&gt;The Lumenier LUX flight controller provides high quality flight control using the powerful F3 processor along with top of the line hardware. Unleash the capabilities of your FPV Racing Quadcopter with the Lumenier LUX Flight Controller. Achieve gyro refresh rates up to 8kHz (high speed SPI) using popular Betaflight and Raceflight firmware along with ultra low looptimes. The LUX comes with Cleanflight pre-installed.&lt;/p&gt;
+
+&lt;p&gt;The Lumenier LUX is a very low profile board allowing it to be mounted in a variety of ways. The board also comes with a set of pin headers you can optionally solder on. Alternatively, signal wires can be soldered directly to the pads to save on size and weight. The LUX supports PPM or Serial RX (including Futaba, FrSky, S.BUS). A signal inverter is already included for S.BUS. Please note: Baseflight firmware is not supported, and PWM input for individual channels is not supported.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thrust-UAV Podium F4</title>
+      <link>http://example.org/flight-controller/podiumf4/</link>
+      <pubDate>Sat, 25 Feb 2017 18:39:24 -0600</pubDate>
+      
+      <guid>http://example.org/flight-controller/podiumf4/</guid>
+      <description>
+
+&lt;p&gt;This flight controller was designed for performance and features an integrated 12V/5V regulated power distribution board (PDB). Simply connect power to the board and fly!&lt;/p&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;podium-controller-02Simple layout very easy to install&lt;/li&gt;
+&lt;li&gt;Built in PDB with 4oz of copper&lt;/li&gt;
+&lt;li&gt;Both 12v and 5v filtered power&lt;/li&gt;
+&lt;li&gt;12v is 1 amp&lt;/li&gt;
+&lt;li&gt;5v is 3 amp&lt;/li&gt;
+&lt;li&gt;STM32 F4 processor&lt;/li&gt;
+&lt;li&gt;ICM-20608-G high performance gyro&lt;/li&gt;
+&lt;li&gt;Supports up to 32kz sampling*&lt;/li&gt;
+&lt;li&gt;Supports addressable leds&lt;/li&gt;
+&lt;li&gt;Super low profile DFU button&lt;/li&gt;
+&lt;li&gt;Large reinforced solder pads&lt;/li&gt;
+&lt;li&gt;Comes with custom anti vibration bobbins&lt;/li&gt;
+&lt;li&gt;Made in USA&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

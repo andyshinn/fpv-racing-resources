@@ -1,0 +1,26 @@
+<!--sidebar start-->
+
+<div id="sidebar" class="pure-menu">
+  <span class="pure-menu-heading">{{ .Site.Title }}</span>
+  <!-- sidebar menu start-->
+  <ul class="pure-menu-list">
+  {{ $currentPage := . }}
+  {{ range .Site.Menus.main }}
+    {{ if .HasChildren }}
+
+      <li class="pure-menu-item{{if $currentPage.HasMenuCurrent "main" . }} pure-menu-selected{{end}}">
+        <a href="javascript:;" class="">{{ .Pre }}<span>{{ .Name }}</span><span class="menu-arrow arrow_carrot-right"></span></a>
+        <ul class="sub">
+          {{ range .Children }}
+          <li{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }} </a> </li>
+          {{ end }}
+        </ul>
+      {{else}}
+      <li class="pure-menu-item{{if $currentPage.HasMenuCurrent "main" . }} pure-menu-selected{{end}}">
+        <a class="pure-menu-link "href="{{.URL}}">{{ .Pre }}<span>{{ .Name }}</span></a>
+      {{end}}
+    </li>
+  {{end}}
+    <li class="pure-menu-item"> <a class="pure-menu-link" href="#" target="blank">Edit this Page</a> </li>
+  </ul>
+</div>

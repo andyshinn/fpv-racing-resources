@@ -1,0 +1,6 @@
+{{ partial "header.html" . }}
+{{- range first 10 ( where .Data.Pages "Section" "part" ) }}
+  <h1>{{ .Title }}</h1>
+  {{ .Summary }}
+{{- end }}
+{{ partial "footer.html" . -}}

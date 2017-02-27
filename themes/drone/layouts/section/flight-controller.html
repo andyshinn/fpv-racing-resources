@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+<h2>Flight Controllers</h2>
+{{ .Content }}
+<table class="pure-table pure-table-striped">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Processor</th>
+      <th>Software</th>
+      <th>Size</th>
+      <th>PDB</th>
+      <th>OSD</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{- range first 10 ( where .Data.Pages "Section" "flight-controller" ) }}
+      <tr>
+        <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+        <td>{{ .Params.specs.processor }}</td>
+        <td>{{ .Params.specs.software }}</td>
+        <td>{{ .Params.specs.size }}</td>
+        <td>{{ if .Params.specs.integrated_pdb }}Yes{{ else }}No{{ end }}</td>
+        <td>{{ if .Params.specs.integrated_osd }}Yes{{ else }}No{{ end }}</td>
+      </tr>
+    {{- end }}
+  </tbody>
+</table>
+{{ partial "footer.html" . -}}

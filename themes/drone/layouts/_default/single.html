@@ -1,0 +1,8 @@
+{{ partial "header.html" . }}
+<h1>{{ .Title }}</h1>
+<h2>Part Details</h2>
+<ul>
+  <li>External Link: <a target="_blank" href="{{ .Params.external_url }}"></a></li>
+</ul>
+{{ .Content }}
+{{ partial "footer.html" . }}
