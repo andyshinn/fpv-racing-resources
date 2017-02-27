@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Flight Controller on FPV Racing Resources</title>
-    <link>http://example.org/categories/flight-controller/index.xml</link>
+    <link>http://andyshinn.github.io/fpv-racing-resources/categories/flight-controller/index.xml</link>
     <description>Recent content in Flight Controller on FPV Racing Resources</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://example.org/categories/flight-controller/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://andyshinn.github.io/fpv-racing-resources/categories/flight-controller/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Lumenier LUX V2</title>
-      <link>http://example.org/flight-controller/lumenier-lux-v2/</link>
+      <link>http://andyshinn.github.io/fpv-racing-resources/flight-controller/lumenier-lux-v2/</link>
       <pubDate>Sun, 26 Feb 2017 13:49:04 -0600</pubDate>
       
-      <guid>http://example.org/flight-controller/lumenier-lux-v2/</guid>
+      <guid>http://andyshinn.github.io/fpv-racing-resources/flight-controller/lumenier-lux-v2/</guid>
       <description>
 
 &lt;p&gt;The Lumenier LUX V2 flight controller is the next generation of the popular Lumenier LUX. It uses a powerful F3 processor along with top of the line hardware. Unleash the capabilities of your FPV Racing Quadcopter with the Lumenier LUX Flight Controller. Achieve gyro refresh rates up to 8kHz (high speed SPI) using popular Betaflight, CleanFlight and RaceFlight firmware along with ultra low looptimes. The LUX comes with BetaFlight pre-installed.&lt;/p&gt;
@@ -81,10 +81,10 @@
     
     <item>
       <title>Lumenier LUX</title>
-      <link>http://example.org/flight-controller/lumenier-lux/</link>
+      <link>http://andyshinn.github.io/fpv-racing-resources/flight-controller/lumenier-lux/</link>
       <pubDate>Sun, 26 Feb 2017 11:56:04 -0600</pubDate>
       
-      <guid>http://example.org/flight-controller/lumenier-lux/</guid>
+      <guid>http://andyshinn.github.io/fpv-racing-resources/flight-controller/lumenier-lux/</guid>
       <description>&lt;p&gt;The Lumenier LUX flight controller provides high quality flight control using the powerful F3 processor along with top of the line hardware. Unleash the capabilities of your FPV Racing Quadcopter with the Lumenier LUX Flight Controller. Achieve gyro refresh rates up to 8kHz (high speed SPI) using popular Betaflight and Raceflight firmware along with ultra low looptimes. The LUX comes with Cleanflight pre-installed.&lt;/p&gt;
 
 &lt;p&gt;The Lumenier LUX is a very low profile board allowing it to be mounted in a variety of ways. The board also comes with a set of pin headers you can optionally solder on. Alternatively, signal wires can be soldered directly to the pads to save on size and weight. The LUX supports PPM or Serial RX (including Futaba, FrSky, S.BUS). A signal inverter is already included for S.BUS. Please note: Baseflight firmware is not supported, and PWM input for individual channels is not supported.&lt;/p&gt;
@@ -93,10 +93,10 @@
     
     <item>
       <title>Thrust-UAV Podium F4</title>
-      <link>http://example.org/flight-controller/podiumf4/</link>
+      <link>http://andyshinn.github.io/fpv-racing-resources/flight-controller/podiumf4/</link>
       <pubDate>Sat, 25 Feb 2017 18:39:24 -0600</pubDate>
       
-      <guid>http://example.org/flight-controller/podiumf4/</guid>
+      <guid>http://andyshinn.github.io/fpv-racing-resources/flight-controller/podiumf4/</guid>
       <description>
 
 &lt;p&gt;This flight controller was designed for performance and features an integrated 12V/5V regulated power distribution board (PDB). Simply connect power to the board and fly!&lt;/p&gt;
