@@ -5,6 +5,7 @@ baseurl: "http://andyshinn.github.io/fpv-racing-resources/"
 theme: "drone"
 metaDataFormat: "yaml"
 publishDir: "docs"
+sectionPagesMenu: "main"
 taxonomies:
   tag: "tags"
   category: "categories"
@@ -13,6 +14,12 @@ menu:
   - name: Home
     url: /
     weight: 0
+    Identifier: index
   - name: Flight Controllers
     url: /flight-controller/
     weight: 10
+    identifier: flight-controller
+  - name: Shops
+    url: /shop/
+    weight: 20
+    Identifier: shop

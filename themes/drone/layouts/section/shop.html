@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+<h2>{{ .Title }}</h2>
+{{ .Content }}
+{{ range .Data.Pages.GroupByParam "geo" }}
+<h4>{{ .Key }}</h3>
+<ul>
+  {{ range .Pages }}
+  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}
+{{ partial "footer.html" . }}
