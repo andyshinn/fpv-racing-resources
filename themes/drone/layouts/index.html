@@ -1,15 +1,14 @@
 {{ partial "header.html" . }}
 {{ $baseUrl := .Site.BaseURL }}
 <div class="card-deck">
-{{ range $section, $pages := .Site.Sections }}
-  {{ if ne $section "" }}
-    <div class="card" style="width: 20rem;">
-      <div class="card-block">
-        <h4 class="card-title">{{ replace $section "-" " " | title }}</h4>
-        <a href="{{ $baseUrl }}{{ $section }}" class="btn btn-primary">{{ replace $section "-" " " | title }}</a>
-      </div>
+  {{- range where .Site.Pages "Kind" "section" }}
+  <div class="card" style="width: 20rem;">
+    <div class="card-block">
+      <h4 class="card-title">{{ .Title }}</h4>
+      <p class="card-text">{{ .Summary }}</p>
+      <a href="{{ .Permalink }}" class="btn btn-primary">Visit {{ .Title }}</a>
     </div>
-  {{ end }}
-{{ end }}
+  </div>
+  {{- end }}
 </div>
 {{ partial "footer.html" . -}}
