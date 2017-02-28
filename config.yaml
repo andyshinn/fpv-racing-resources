@@ -1,11 +1,12 @@
 ---
 languageCode: "en-us"
 title: "FPV Racing Resources"
-baseurl: "http://andyshinn.github.io/fpv-racing-resources/"
+baseurl: "https://andyshinn.github.io/fpv-racing-resources/"
 theme: "drone"
 metaDataFormat: "yaml"
 publishDir: "docs"
 sectionPagesMenu: "main"
+disqusShortname: "fpv-racing-resources"
 taxonomies:
   tag: "tags"
   category: "categories"
