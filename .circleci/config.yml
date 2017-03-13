@@ -17,6 +17,8 @@ jobs:
       - deploy:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              git config --global user.email "circleci@circleci.com"
+              git config --global user.name "CircleCI"
               git add docs
               git commit -m "[ci skip] publish from CircleCI ${CIRCLE_BRANCH} branch"
               git push origin master
