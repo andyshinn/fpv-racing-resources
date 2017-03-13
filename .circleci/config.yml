@@ -1,0 +1,23 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: jojomi/hugo:0.19
+        environment:
+          - HUGO_THEME: drone
+          - HUGO_BASEURL: https://andyshinn.github.io/fpv-racing-resources/
+    working_directory: /src
+    steps:
+      - run: apk add --no-cache git openssh-client
+      - checkout
+      - run: /run.sh
+      - store_artifacts:
+          path: /output
+          destination: html
+      - deploy:
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              git add docs
+              git commit -m "[ci skip] publish from CircleCI ${CIRCLE_BRANCH} branch"
+              git push origin master
+            fi
