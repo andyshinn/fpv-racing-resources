@@ -9,6 +9,86 @@
     <atom:link href="https://andyshinn.github.io/fpv-racing-resources/categories/flight-controller/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>OMNIBUS F4 AIO V2</title>
+      <link>https://andyshinn.github.io/fpv-racing-resources/flight-controller/omnibus-f4-aio-v2/</link>
+      <pubDate>Sun, 12 Mar 2017 19:12:29 -0500</pubDate>
+      
+      <guid>https://andyshinn.github.io/fpv-racing-resources/flight-controller/omnibus-f4-aio-v2/</guid>
+      <description>&lt;p&gt;Upgraded version of the OMNIBUS F4 AIO.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OMNIBUS F4 AIO</title>
+      <link>https://andyshinn.github.io/fpv-racing-resources/flight-controller/omnibus-f4-aio/</link>
+      <pubDate>Sun, 12 Mar 2017 19:09:50 -0500</pubDate>
+      
+      <guid>https://andyshinn.github.io/fpv-racing-resources/flight-controller/omnibus-f4-aio/</guid>
+      <description>
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;OMNIBUS F3&amp;rsquo;s upgrade version, using F405 instead of F303, could run faster loop time.&lt;/li&gt;
+&lt;li&gt;classic OMNIBUS design, using F4 MCU controls OSD over SPI bus in DMA mode,&lt;/li&gt;
+&lt;li&gt;OSD Configation has been incl. in Betaflight GUI.&lt;/li&gt;
+&lt;li&gt;Incl. 128Mbit Flash, please always use BEC for the FC.&lt;/li&gt;
+&lt;li&gt;MPU6000 at SPI bus.&lt;/li&gt;
+&lt;li&gt;Supported by BETAFLIGHT and dRonin&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Betaflight F3</title>
+      <link>https://andyshinn.github.io/fpv-racing-resources/flight-controller/betaflight-f3/</link>
+      <pubDate>Sun, 12 Mar 2017 19:01:29 -0500</pubDate>
+      
+      <guid>https://andyshinn.github.io/fpv-racing-resources/flight-controller/betaflight-f3/</guid>
+      <description>
+
+&lt;p&gt;Betaflight F3 is the flight controller designed to use every possible feature of Betaflight. More than the last half year has been spent in development. Boris B has worked with us to go over features and design aspects to help give us insight into what Betaflight users want/need.&lt;/p&gt;
+
+&lt;p&gt;This board features a 3A power draw giving users extra room for added attachments through UART ports. The six layer PCB is a more expensive design approach but was needed to give the ability to have a PDB that was capable of having wiring pads on both the top and bottom of the board. By using the six layer design we were able to increase the size of the pads and work around all the components all the while giving esc connections in the corners of the board rather than bunching all connections on either the top OR the bottom. Featuring a fully functioning OSD that can be configured in Betaflight this board will make configuring your OSD a breeze.&lt;/p&gt;
+
+&lt;p&gt;The team at Betaflight have been hard at work developing DSHOT and this board is also compatible with the latest release. But we didn’t stop there, this board also features a micro adapter to accept TF cards for those of you that like to follow up your flights with reviewing black box logging&amp;hellip;we think we know of at least one guy that will like that.&lt;/p&gt;
+
+&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Built-In 3A 5V BEC&lt;/li&gt;
+&lt;li&gt;OSD configurable via Betaflight GUI&lt;/li&gt;
+&lt;li&gt;TF card adapter - for extra space for black box debugging&lt;/li&gt;
+&lt;li&gt;current sensor&lt;/li&gt;
+&lt;li&gt;Support D-SHOT by default&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OMNIBUS F4 Pro V2</title>
+      <link>https://andyshinn.github.io/fpv-racing-resources/flight-controller/omnibus-f4-pro-v2/</link>
+      <pubDate>Sun, 12 Mar 2017 18:59:08 -0500</pubDate>
+      
+      <guid>https://andyshinn.github.io/fpv-racing-resources/flight-controller/omnibus-f4-pro-v2/</guid>
+      <description>
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SPI Gyro MPU6000&lt;/li&gt;
+&lt;li&gt;On-Board OSD (controllered by Betaflight, FC over SPI bus)&lt;/li&gt;
+&lt;li&gt;MicroSD Blackbox&lt;/li&gt;
+&lt;li&gt;Baro (BMP280)&lt;/li&gt;
+&lt;li&gt;F4 Processor (F405)&lt;/li&gt;
+&lt;li&gt;5v3a SBEC&lt;/li&gt;
+&lt;li&gt;Built-in Current Sensor&lt;/li&gt;
+&lt;li&gt;On-Board Video Filter (only can supply 5V to VTX and Camera)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Lumenier LUX V2</title>
       <link>https://andyshinn.github.io/fpv-racing-resources/flight-controller/lumenier-lux-v2/</link>
       <pubDate>Sun, 26 Feb 2017 13:49:04 -0600</pubDate>
@@ -104,7 +184,7 @@
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;podium-controller-02Simple layout very easy to install&lt;/li&gt;
+&lt;li&gt;Simple layout very easy to install&lt;/li&gt;
 &lt;li&gt;Built in PDB with 4oz of copper&lt;/li&gt;
 &lt;li&gt;Both 12v and 5v filtered power&lt;/li&gt;
 &lt;li&gt;12v is 1 amp&lt;/li&gt;

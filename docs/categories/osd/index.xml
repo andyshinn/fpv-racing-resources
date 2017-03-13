@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Osd on FPV Racing Resources</title>
+    <link>https://andyshinn.github.io/fpv-racing-resources/categories/osd/index.xml</link>
+    <description>Recent content in Osd on FPV Racing Resources</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://andyshinn.github.io/fpv-racing-resources/categories/osd/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>OMNIBUS F4 AIO V2</title>
+      <link>https://andyshinn.github.io/fpv-racing-resources/flight-controller/omnibus-f4-aio-v2/</link>
+      <pubDate>Sun, 12 Mar 2017 19:12:29 -0500</pubDate>
+      
+      <guid>https://andyshinn.github.io/fpv-racing-resources/flight-controller/omnibus-f4-aio-v2/</guid>
+      <description>&lt;p&gt;Upgraded version of the OMNIBUS F4 AIO.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OMNIBUS F4 AIO</title>
+      <link>https://andyshinn.github.io/fpv-racing-resources/flight-controller/omnibus-f4-aio/</link>
+      <pubDate>Sun, 12 Mar 2017 19:09:50 -0500</pubDate>
+      
+      <guid>https://andyshinn.github.io/fpv-racing-resources/flight-controller/omnibus-f4-aio/</guid>
+      <description>
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;OMNIBUS F3&amp;rsquo;s upgrade version, using F405 instead of F303, could run faster loop time.&lt;/li&gt;
+&lt;li&gt;classic OMNIBUS design, using F4 MCU controls OSD over SPI bus in DMA mode,&lt;/li&gt;
+&lt;li&gt;OSD Configation has been incl. in Betaflight GUI.&lt;/li&gt;
+&lt;li&gt;Incl. 128Mbit Flash, please always use BEC for the FC.&lt;/li&gt;
+&lt;li&gt;MPU6000 at SPI bus.&lt;/li&gt;
+&lt;li&gt;Supported by BETAFLIGHT and dRonin&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OMNIBUS F4 Pro V2</title>
+      <link>https://andyshinn.github.io/fpv-racing-resources/flight-controller/omnibus-f4-pro-v2/</link>
+      <pubDate>Sun, 12 Mar 2017 18:59:08 -0500</pubDate>
+      
+      <guid>https://andyshinn.github.io/fpv-racing-resources/flight-controller/omnibus-f4-pro-v2/</guid>
+      <description>
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SPI Gyro MPU6000&lt;/li&gt;
+&lt;li&gt;On-Board OSD (controllered by Betaflight, FC over SPI bus)&lt;/li&gt;
+&lt;li&gt;MicroSD Blackbox&lt;/li&gt;
+&lt;li&gt;Baro (BMP280)&lt;/li&gt;
+&lt;li&gt;F4 Processor (F405)&lt;/li&gt;
+&lt;li&gt;5v3a SBEC&lt;/li&gt;
+&lt;li&gt;Built-in Current Sensor&lt;/li&gt;
+&lt;li&gt;On-Board Video Filter (only can supply 5V to VTX and Camera)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thrust-UAV Podium F4</title>
+      <link>https://andyshinn.github.io/fpv-racing-resources/flight-controller/podiumf4/</link>
+      <pubDate>Sat, 25 Feb 2017 18:39:24 -0600</pubDate>
+      
+      <guid>https://andyshinn.github.io/fpv-racing-resources/flight-controller/podiumf4/</guid>
+      <description>
+
+&lt;p&gt;This flight controller was designed for performance and features an integrated 12V/5V regulated power distribution board (PDB). Simply connect power to the board and fly!&lt;/p&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Simple layout very easy to install&lt;/li&gt;
+&lt;li&gt;Built in PDB with 4oz of copper&lt;/li&gt;
+&lt;li&gt;Both 12v and 5v filtered power&lt;/li&gt;
+&lt;li&gt;12v is 1 amp&lt;/li&gt;
+&lt;li&gt;5v is 3 amp&lt;/li&gt;
+&lt;li&gt;STM32 F4 processor&lt;/li&gt;
+&lt;li&gt;ICM-20608-G high performance gyro&lt;/li&gt;
+&lt;li&gt;Supports up to 32kz sampling*&lt;/li&gt;
+&lt;li&gt;Supports addressable leds&lt;/li&gt;
+&lt;li&gt;Super low profile DFU button&lt;/li&gt;
+&lt;li&gt;Large reinforced solder pads&lt;/li&gt;
+&lt;li&gt;Comes with custom anti vibration bobbins&lt;/li&gt;
+&lt;li&gt;Made in USA&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

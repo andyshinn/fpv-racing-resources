@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Esc on FPV Racing Resources</title>
+    <link>https://andyshinn.github.io/fpv-racing-resources/categories/esc/index.xml</link>
+    <description>Recent content in Esc on FPV Racing Resources</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://andyshinn.github.io/fpv-racing-resources/categories/esc/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>FVT LittleBee 20A</title>
+      <link>https://andyshinn.github.io/fpv-racing-resources/esc/littlebee-20a/</link>
+      <pubDate>Sun, 12 Mar 2017 18:11:51 -0500</pubDate>
+      
+      <guid>https://andyshinn.github.io/fpv-racing-resources/esc/littlebee-20a/</guid>
+      <description>
+
+&lt;p&gt;Asuper compact, lightweight, high performance speed controller for your racing multi-rotor. Pre-flashed with BLHeli and ready to use with Oneshot (aka oneshot125 / PWMsync) mode via compatible flight controllers running Cleanflight or similar.&lt;/p&gt;
+
+&lt;h3 id=&#34;specifications&#34;&gt;Specifications&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Input: 2-4s Lipo&lt;/li&gt;
+&lt;li&gt;Constant: 20 Amps&lt;/li&gt;
+&lt;li&gt;Burst: 30 Amps&lt;/li&gt;
+&lt;li&gt;Weight: 4g&lt;/li&gt;
+&lt;li&gt;Dimensions: 23x12.5x3mm&lt;/li&gt;
+&lt;li&gt;Motor wire: 70mm&lt;/li&gt;
+&lt;li&gt;Signal wire: 120mm&lt;/li&gt;
+&lt;li&gt;PCB - 4 Layer Blind Pole PCB - 3oz Pour&lt;/li&gt;
+&lt;li&gt;Mosfet: All N channel&lt;/li&gt;
+&lt;li&gt;BEC: None&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FVT LittleBee 20A</title>
+      <link>https://andyshinn.github.io/fpv-racing-resources/esc/littlebee-30a/</link>
+      <pubDate>Sun, 12 Mar 2017 18:11:51 -0500</pubDate>
+      
+      <guid>https://andyshinn.github.io/fpv-racing-resources/esc/littlebee-30a/</guid>
+      <description>
+
+&lt;p&gt;Asuper compact, lightweight, high performance speed controller for your racing multi-rotor. Pre-flashed with BLHeli and ready to use with Oneshot (aka oneshot125 / PWMsync) mode via compatible flight controllers running Cleanflight or similar.&lt;/p&gt;
+
+&lt;h3 id=&#34;specifications&#34;&gt;Specifications&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Input: 2-6s Lipo&lt;/li&gt;
+&lt;li&gt;Constant: 30 Amps&lt;/li&gt;
+&lt;li&gt;Burst: 35 Amps&lt;/li&gt;
+&lt;li&gt;Weight: 11g&lt;/li&gt;
+&lt;li&gt;Dimensions: 35x17mm&lt;/li&gt;
+&lt;li&gt;PCB - 4 Layer Blind Pole PCB - 3oz Pour&lt;/li&gt;
+&lt;li&gt;Mosfet: All N channel&lt;/li&gt;
+&lt;li&gt;BEC: None&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

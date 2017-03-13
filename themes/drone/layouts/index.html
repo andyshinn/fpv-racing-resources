@@ -2,7 +2,7 @@
 {{ $baseUrl := .Site.BaseURL }}
 <div class="card-deck">
   {{- range where .Site.Pages "Kind" "section" }}
-  <div class="card" style="width: 20rem;">
+  <div class="card mb-4" style="width: 20rem;">
     <div class="card-block">
       <h4 class="card-title">{{ .Title }}</h4>
       <p class="card-text">{{ .Summary }}</p>

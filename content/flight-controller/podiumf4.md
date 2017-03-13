@@ -1,9 +1,11 @@
 ---
 categories:
   - flight-controller
+  - osd
+  - pdb
 date: 2017-02-25T18:39:24-06:00
 specs:
-  gyro: ""
+  gyro: "ICM-20608-G"
   integrated_osd: false
   integrated_pdb: true
   processor: "F4"
@@ -14,7 +16,7 @@ This flight controller was designed for performance and features an integrated 1
 
 ## Features
 
-* podium-controller-02Simple layout very easy to install
+* Simple layout very easy to install
 * Built in PDB with 4oz of copper
 * Both 12v and 5v filtered power
 * 12v is 1 amp
