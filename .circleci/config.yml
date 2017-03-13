@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run: hugo
       - store_artifacts:
-          path: /docs
+          path: /src/docs
           destination: html
       - deploy:
           command: |
