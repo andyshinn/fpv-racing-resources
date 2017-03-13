@@ -3,23 +3,20 @@ jobs:
   build:
     docker:
       - image: jojomi/hugo:0.19
-        environment:
-          - HUGO_THEME: drone
-          - HUGO_BASEURL: https://andyshinn.github.io/fpv-racing-resources/
     working_directory: /src
     steps:
       - run: apk add --no-cache git openssh-client
       - checkout
-      - run: /run.sh
+      - run: hugo
       - store_artifacts:
-          path: /output
+          path: /docs
           destination: html
       - deploy:
           command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+            if [ "${CIRCLE_BRANCH}" == "master" -a -n "$(git status --porcelain -- docs)" ]; then
               git config --global user.email "circleci@circleci.com"
               git config --global user.name "CircleCI"
               git add docs
-              git commit -m "[ci skip] publish from CircleCI ${CIRCLE_BRANCH} branch"
+              git commit -m "[ci skip] publish from CircleCI"
               git push origin master
             fi
